@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>Crystal Game</title>
+    <link rel="stylesheet" href="assests/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="javascript" href="assests/javascript/game.js">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col" id="header">
+                <h1>Crystals Collector</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" id="instructions">
+                <p>You will be given a random number at the start of the game.</p>
+                <p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.</p>
+                <p>You win the game by matching your total score to a random number, you will lose the game if your score goes above the random number.</p>
+                <p>The value of each crystal is hidden from you until you.</p>
+                <p>Each time the game starts, the value of each crystal changes</p>
+                <p>Can you defeat The Darkening?</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" id="randomNumber"></div>
+            <div class="col" id="winLoss">
+                <p id="wins">Wins:</p>
+                <p id="losses">Losses:</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" id="button1">
+                    <img src="assests/images/pinkCrystal.png" style="width: 200px">
+            </div>
+            <div class="col" id="button2">
+                    <img src="assests/images/blueCrystal.png" style="width: 200px">
+            </div>
+            <div class="col" id="button3">
+                    <img src="assests/images/purpleCrystal.png" style="width: 200px">
+            </div>
+            <div class="col" id="button4">
+                    <img src="assests/images/silverCrystal.png" style="width: 200px">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>Your Total Score Is:</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" id="totalScore">
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

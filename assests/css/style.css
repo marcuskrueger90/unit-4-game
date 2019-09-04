@@ -1,4 +1,14 @@
 body {
-    /* background-image: url("assets/images/dark-crystal-8.jpg"); */
-    background-color: blueviolet;
+    background-image: url("../images/dark-crystal-8.jpg");
+    background-size: cover;
+    }
+
+#header {
+    font-family: 'Berkshire Swash', cursive;
+    
 }
+/* font-family: 'Sedgwick Ave', cursive;
+font-family: 'Condiment', cursive;
+font-family: 'Walter Turncoat', cursive;
+font-family: 'Fondamento', cursive;
+font-family: 'Berkshire Swash', cursive; */

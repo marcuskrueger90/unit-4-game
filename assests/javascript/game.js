@@ -63,19 +63,22 @@ $("#pinkCrystal").click(function(){
     
     $("#totalScore").html(totalScore + crystal.pink.value)
     totalScore = totalScore + crystal.pink.value;
+    restart();
 });
 $("#blueCrystal").click(function(){
     $("#totalScore").html(totalScore + crystal.blue.value)
     totalScore = totalScore + crystal.blue.value;
+    restart();
 });
 $("#purpleCrystal").click(function(){
     $("#totalScore").html(totalScore + crystal.purple.value)
     totalScore = totalScore + crystal.purple.value;
+    restart();
 });
 $("#silverCrystal").click(function(){
     $("#totalScore").html(totalScore + crystal.silver.value)
     totalScore = totalScore + crystal.silver.value;
+    restart();
 });
 
 startGame();
-restart();

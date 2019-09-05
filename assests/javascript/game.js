@@ -26,6 +26,7 @@ var crystal = {
 var startGame = function(){
 
     totalScore = 0;
+    $("#totalScore").html(totalScore);
 
     matchScore = randomNumber(19, 120);
     $("#randomNumber").html(matchScore);
@@ -48,6 +49,7 @@ if (totalScore === matchScore){
     $("#wins").html("Wins: " + wins);
 
     startGame();
+
 }
 if (totalScore > matchScore){
     loses++ ;

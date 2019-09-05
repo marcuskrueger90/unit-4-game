@@ -1,11 +1,81 @@
 body {
-    background-image: url("../images/dark-crystal-8.jpg");
+    background-image: url("../images/backdrop.png");
     background-size: cover;
     }
 
 #header {
+    text-align: center;
     font-family: 'Berkshire Swash', cursive;
-    
+    /* color: #744cc7; */
+    color: #220638;
+    text-shadow:
+		-1px -1px 0 #f4b08c,
+		1px -1px 0 #f4b08c,
+		-1px 1px 0 #f4b08c,
+		1px 1px 0 #f4b08c;
+}
+#instructions {
+    background-color: #d7dcdd;
+    font-family: 'Walter Turncoat' , cursive;
+
+}
+
+#randomNumber {
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 50px;
+    color: #220638;
+    text-shadow:
+		-1px -1px 0 #f4b08c,
+		1px -1px 0 #f4b08c,
+		-1px 1px 0 #f4b08c,
+		1px 1px 0 #f4b08c;
+}
+
+#totalScore {
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 50px;
+    color: #220638;
+    text-shadow:
+		-1px -1px 0 #f4b08c,
+		1px -1px 0 #f4b08c,
+		-1px 1px 0 #f4b08c,
+		1px 1px 0 #f4b08c;
+}
+
+#totalHeader{
+    font-family: 'Fondamento', cursive;
+    color: #220638;
+    font-size: 25px;
+    text-shadow:
+		-1px -1px 0 #f4b08c,
+		1px -1px 0 #f4b08c,
+		-1px 1px 0 #f4b08c,
+		1px 1px 0 #f4b08c;
+
+}
+
+#wins{
+    font-family: 'Fondamento', cursive;
+    color: #220638;
+    font-size: 20px;
+    text-shadow:
+		-.5px -.5px 0 #f4b08c,
+		.5px -.5px 0 #f4b08c,
+		-.5px .5px 0 #f4b08c,
+		.5px .5px 0 #f4b08c;
+
+}
+
+#losses {
+    font-family: 'Fondamento', cursive;
+    color: #220638;
+    font-size: 20px;
+    text-shadow:
+		-.5px -.5px 0 #f4b08c,
+		.5px -.5px 0 #f4b08c,
+		-.5px .5px 0 #f4b08c,
+		.5px .5px 0 #f4b08c;
+
 }
 /* font-family: 'Sedgwick Ave', cursive;
 font-family: 'Condiment', cursive;

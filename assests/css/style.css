@@ -56,6 +56,11 @@ body {
 
 #wins{
     font-family: 'Fondamento', cursive;
+    margin: 5px;
+    padding: 5px;
+    background-color: bisque;
+    border: black;
+    border-width:1px;
     color: #220638;
     font-size: 20px;
     text-shadow:
@@ -68,6 +73,11 @@ body {
 
 #losses {
     font-family: 'Fondamento', cursive;
+    margin: 5px;
+    padding: 5px;
+    background-color: bisque;
+    border: black;
+    border-width:1px;
     color: #220638;
     font-size: 20px;
     text-shadow:
